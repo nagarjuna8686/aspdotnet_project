@@ -1,0 +1,66 @@
+/* Drop down styles*/
+/* Look and feel of select box */
+ 
+
+.selectbox
+{
+ border:0px solid #D1E4F6;
+  margin-top:5px; margin-bottom:10px;
+  padding-left:5px; line-height:25px; padding-left:10px;
+  font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size:1em;/* Resize Font*/
+  width : 213px; /* Resize Width */
+  height:24px;
+  display : block;
+  text-align:left;
+  background: url(../../images/offices_combo_bg.png) left top no-repeat;
+  cursor: pointer;
+  color:#333;
+}
+
+div.selectbox-wrapper {
+  position:absolute;
+  width:400px;
+  background-color:#dedede;
+  margin:0px;
+  margin-top:-10px;
+  padding:0px;
+  text-align:left;
+  max-height:200px;
+  overflow:auto;
+}
+
+/*Drop down list styles*/
+div.selectbox-wrapper ul {
+  list-style-type:none;
+  margin:0px;
+  padding:0px;
+}
+/* Selected item in dropdown list*/
+div.selectbox-wrapper ul li.selected { 
+  /*background-color: #EAF2FB;*/
+  background-color: #95ca59;
+}
+
+
+/* Hover state for dropdown list */
+div.selectbox-wrapper ul li.current { 
+  background-color: #CDD8E4;
+}
+
+/* Drop down list items style*/
+div.selectbox-wrapper ul li {
+  list-style-type:none;
+  display:block;
+  margin:0;
+  padding-left:5px;
+  padding-bottom:2px; padding-right:2px;
+  padding-top:2px;
+  cursor:pointer;
+   background-color:#f1f1f1;
+}
+
+
+.selectbox option{ background:#f3f3f3; padding:4px;} 
+{}
+
